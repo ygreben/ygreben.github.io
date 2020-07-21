@@ -1,0 +1,180 @@
+/*Спецификация*/
+html{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+body {
+    margin: 0; /* Убираем отступы */
+    
+   } 
+.logo{
+	height:56px;
+	width:81px;
+}
+ul, li{
+	display: block;
+	padding: 0;
+	margin:0;
+}
+h1{
+	
+}
+h2{
+	margin-top:-5px;
+}
+h3{	line-height: 21px;
+	font-size: 20px;
+}
+h4{
+	font-size: 24px;
+	font-weight: 800;
+}
+h5{	font-size: 22px;
+	font-weight: 800;
+}
+h6{
+	font-size: 18px;
+	}
+header{
+
+}
+/*преимущества1*/
+.feautures{
+	height: 793px; /* Высота страницы */
+    background: url(img/bg.png); /* Параметры фона */
+    background-size: cover; /* Фон занимает всю доступную площадь */
+}
+.header{
+	
+	height: 90px;
+}
+.menu__item{
+	margin-left: 30px;
+	width: 230px;
+	padding-right: 10px;
+	
+}
+.menu{
+	margin-top: 30px;
+	display: inline-block;
+
+}
+.type, .check_mark, .peolpe{
+	height:40px;
+}
+.feautures_1_decs{
+	color: grey;
+	margin-left: 30px;
+	display: flex;
+	justify-content: left;
+	font-weight: 400; 
+	font-style: italic;
+	font-size: 16px;
+}
+.feautures_1_types{
+	color: grey;
+	margin-left: 45px;
+	display: flex;
+	justify-content: left;
+	font-weight: 400; 
+	font-size: 16px;
+	font-style: italic;
+}
+.feautures_1_logo{
+	color: black;
+	margin-left: 100px;
+	margin-top: 5px;
+	display: flex;
+	justify-content: left;
+	font-weight: 900; 
+	font-size: 22px;
+}
+ul li img{
+	position: absolute;
+}
+
+/*преимущества2*/
+.legs{
+	margin-left: 436px;
+	position: absolute;
+}
+.pills{
+	position: absolute;
+	margin-left: 603px;
+	margin-top:476px;
+}
+.rightbar{
+	margin-left:920px;
+
+	
+}
+.feautures2{
+	
+	height: 282px;
+	
+	width: 300px;
+}
+.infographic img{
+	height: 282px;
+	width: 60px;
+}
+.logo-centered{
+	display: flex;
+	justify-content: center;
+}
+/*опасность*/
+.danger{
+	margin-top: 60px;
+	height: 623px;
+}
+.offer-centered img{
+	height: 85px;
+}
+.col-lg-12{
+	display: flex;
+
+}
+.stripe{
+	margin: 20px 0 20px 0;
+}
+.col-lg-12 img{
+	margin: auto;
+	margin-bottom: 22px;
+}
+.col-lg-12 h1, .col-lg-12 h4{
+	margin: auto;
+	margin-bottom: 45px;
+}
+.warning{
+	vertical-align: middle;
+}
+.col-lg-1{
+	display: flex;
+}
+.statistic{
+	background: url(img/frame.png) center no-repeat;
+	height: 137px;
+	width: 100%;
+	
+}
+.statistic h5{
+	font-weight: 400;
+	margin: auto;
+	text-align:center;
+	margin: 12px;
+}
+.statistic img{
+	font-weight: 400;
+	margin: auto;
+	margin-top: -12px;
+}
+/*статистика*/
+@media (max-width: 1920px){
+	.feautures{
+	height: 450px; /* Высота страницы */
+    background: url(img/bg.png); /* Параметры фона */
+    background-size: cover; /* Фон занимает всю доступную площадь */
+}
+}
