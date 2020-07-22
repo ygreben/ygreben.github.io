@@ -46,9 +46,9 @@ header{
     background: url(img/bg.png); /* Параметры фона */
     background-size: cover; /* Фон занимает всю доступную площадь */
 }
-.header{
-	
-	height: 90px;
+
+p{
+	line-height: 10px
 }
 .menu__item{
 	margin-left: 30px;
@@ -94,8 +94,59 @@ header{
 ul li img{
 	position: absolute;
 }
+.feedback{
+	background: url(img/viget.png);
+	width: 268px;
+	height: 550px;
+	position: absolute;
+	display: flex; 
+}
+.container .row .col-lg-3 .header{
+	margin: auto;
+}
+#sale{
+	display: flex;
+}
+
+#free{
+	margin: auto;
+}
+.car{
+	
+}
+.header{
+	
+	margin: auto;
+	text-align: center;
+	
+}
+.big{
+	font-size: 34px;
+	font-weight: 900;
+}
+.input{
+	height: 70px;
+	width: 88%;
+	border-radius: 33px;
+	margin-bottom:10px;
+	background:#eef2f7;
+	padding: 7px 17px;
+	font-size: 14px;
+	
+	border: 1px transparent;
+}
+.button{
+	
+
+}
 
 /*преимущества2*/
+.sale{
+	padding:18px; 
+}
+.feedback_footer{
+	padding-bottom:1%;
+}
 .legs{
 	margin-left: 436px;
 	position: absolute;
@@ -106,17 +157,21 @@ ul li img{
 	margin-top:476px;
 }
 .rightbar{
-	margin-left:920px;
+	margin-left:1000px;
 
 	
+}
+.feautures2 h3{
+	padding-bottom:20px;
 }
 .feautures2{
 	
 	height: 282px;
 	
-	width: 300px;
+	width: 260px;
 }
 .infographic img{
+	margin-top:50px; 
 	height: 282px;
 	width: 60px;
 }
@@ -170,11 +225,277 @@ ul li img{
 	margin: auto;
 	margin-top: -12px;
 }
+.feedback h3{
+	padding-bottom: 0px;
+}
 /*статистика*/
-@media (max-width: 1920px){
+@media (max-width: 1536px){
 	.feautures{
-	height: 450px; /* Высота страницы */
+	height: 470px; /* Высота страницы */
     background: url(img/bg.png); /* Параметры фона */
     background-size: cover; /* Фон занимает всю доступную площадь */
 }
+h1{
+	font-size: 20px;
+}
+h2{
+	margin-top:-5px;
+	font-size: 15px;
+}
+h3{	line-height: 15px;
+	font-size: 14px;
+}
+h4{
+	font-size: 15px;
+	font-weight: 800;
+}
+h5{	font-size: 14px;
+	font-weight: 800;
+}
+h6{
+	font-size: 12px;
+	}
+p{
+	line-height: 10px
+}
+.feautures_1_types{
+	font-size: 10px;
+} 
+.feautures_1_decs{
+	font-size: 10px;
+} 
+.feautures_1_logo{
+	font-size: 10px;
+} 
+.legs{
+	margin-left: 261px;
+	position: absolute;
+	height: 345px;
+	width: 421px;
+}
+.pills{
+	position: absolute;
+	margin-left: 361px;
+	margin-top:284px;
+	height: 214px;
+	width: 381px;
+}
+
+.rightbar{
+	margin-left:710px;
+
+	
+}
+.feautures2{
+	height: 170px;
+	width: 180px;
+}
+
+.feautures2 h3{
+	padding-bottom:12px;
+	margin-left: -12px; 
+}
+.infographic{
+	height: 190px;
+	width: 40px;
+}
+.feedback{
+	background: url(img/viget.png);
+	width: 149px;
+	height: 330px;
+	background-size: 149px 330px;
+	position: absolute;
+	display: flex; 
+}
+.button{
+	height: 65%;
+	width: 88%;
+}
+.sale{
+	padding:0px; 
+}
+.input{
+	height:35px;
+}
+.feedback h3{
+	font-size: 10px;
+	line-height: 10px;
+}
+.big{
+	font-size: 13px;
+	font-weight: 500;
+}
+.oldnew{
+	font-size: 7px;
+}
+.free{
+	font-size: 7px;
+}
+.p_feedback_footer{
+	font-size: 6px;
+}
+.big img{
+	width:20px; 
+	height:9px;
+}
+.types{
+	width: 22px;
+	height: 22px;
+}
+.check_mark{
+	width: 16px;
+	height: 22px;
+}
+.people{
+	width: 22px;
+	height: 22px;
+}
+}
+@media (max-width: 365px){
+h1 h2{
+text-align: center;
+}
+
+	.feautures{
+	height: 1476px; /* Высота страницы */
+    background: url(img/bg2.png); /* Параметры фона */
+    background-size: cover; /* Фон занимает всю доступную площадь */
+}
+.legs{
+	display: none;
+}
+.menu{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+
+}
+.types{
+	width: 55px;
+	height: 55px;
+}
+.check_mark{
+	width: 46px;
+	height: 56px;
+}
+.people{
+	width: 55px;
+	height: 55px;
+}
+
+.feautures_1_decs{
+	color: grey;
+	margin-left: 70px;
+	display: flex;
+	justify-content: left;
+	font-weight: 400; 
+	font-style: italic;
+	font-size: 20px;
+	padding-bottom: 30px;
+
+}
+.feautures_1_types{
+	display: flex;
+	color: grey;
+	margin-left: 70px;
+	justify-content: left;
+	font-weight: 400; 
+	font-size: 20px;
+	font-style: italic;
+	padding-bottom: 30px;
+}
+.feautures_1_logo{
+	color: black;
+	margin-left: 100px;
+	margin-top: 5px;
+	display: flex;
+	justify-content: left;
+	font-weight: 900; 
+	font-size: 22px;
+	padding-bottom: 30px;
+}
+.rightbar{
+	margin-left: 0px;
+}
+.col-lg-1{
+	position:  absolute;
+}
+.feautures2 h3{
+	margin-left: 80px;
+	width: 200px;
+}
+.infographic{
+	margin-left: 20px;
+}
+
+.feedback{
+	
+
+	margin-left: 10%;
+	margin-top: 350px;
+	background: url(img/viget.png);
+	width: 268px;
+	height: 550px;
+	position: absolute;
+	display: flex; 
+}
+.free{
+	color: white;
+	font-size: 20px;
+	font-weight: 500px;
+	padding-bottom: 16px;
+}
+.feedback h3{
+	font-size: 25px;
+	line-height: 30px;
+	padding: 3px 10px 3px 10px;
+}
+.big img{
+	height: 25px;
+	width: 70px;
+
+}
+.oldnew{
+	font-size: 20px;
+}
+.big{
+	font-size: 40px;
+}
+.p_feedback_footer{
+	font-size: 10px;
+}
+.input{
+	height: 50px;
+}
+.danger {
+   margin-top: 0px;
+    height: 1100px;
+    }
+    #danger_item{
+    	padding: 0px 60px 0px 60px;
+    }
+    .col-lg-12 h1, .col-lg-12 h4 {
+    margin: auto;
+    margin-bottom: 10px;
+}
+.statistic{
+	background: url(img/frame2.png) center no-repeat;
+	background-size: 335px 260px; 
+	height: 290px;
+	width: 365px;
+	
+}
+.statistic h5{
+	font-weight: 400;
+	margin: auto;
+	font-size: 20px;
+	text-align:center;
+	margin: 42px;
+}
+.rightbar{
+	display: flex;
+	justify-content: center;
+}
+.mobh1 .mobh2{
+	align-content: center;
 }
