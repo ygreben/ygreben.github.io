@@ -358,7 +358,7 @@ text-align: center;
 
 	.feautures{
 	height: 1476px; /* Высота страницы */
-    background: url(img/bg2.png); /* Параметры фона */
+    background: url(https://github.com/ygreben/ygreben.github.io/blob/master/img/bg2.png); /* Параметры фона */
     background-size: cover; /* Фон занимает всю доступную площадь */
 }
 .legs{
